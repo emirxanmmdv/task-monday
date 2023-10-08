@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+nav {
+  padding: 0 272px;
+  background-color: #004274;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .left-navbar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 40px;
+}
+nav .left-nav-buttons .navbar-items {
+  display: flex;
+  gap: 40px;
+}
+nav .left-nav-buttons .navbar-items a {
+  color: white;
+  font-size: 18px;
+}
+nav .right-navbar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 30px;
+}
+nav .right-navbar .signin {
+  border: 1px solid #00aeff;
+  padding: 14px 25px;
+  background-color: #00aeff;
+  border-radius: 4px;
+}
+nav .right-navbar a {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  color: white;
+}
+nav .right-navbar a span {
+  border-bottom: 1px dotted white;
+}
+nav .section-menu {
+  position: relative;
+}
+nav .submenu {
+  visibility: hidden;
+  position: absolute;
+  top: 61px;
+  left: -1px;
+  background-color: white;
+  color: black;
+  padding: 20px 50px 20px 5px;
+  transition: all 0.3s;
+  transform: translateY(0);
+}
+nav .section-menu:hover .submenu {
+  visibility: visible;
+  transition: all 0.3s;
+  transform: translateY(-15px);
+}
+nav .submenu p {
+  padding: 10px;
+}
+
+.bgimage {
+  background-image: url(https://preview.colorlib.com/theme/konato/assets/img/hero/h1_hero1.jpg.webp);
+  background-size: cover;
+  height: 690px;
+}
+
+.container-header {
+  width: 100%;
+  padding: 0 300px;
+}
+.container-header .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+}
+.container-header .row span {
+  font-size: 18px;
+}
+.container-header .row h1 {
+  font-size: 60px;
+}
+.container-header .row p {
+  font-size: 20px;
+}
+.container-header .row .price {
+  font-size: 40px;
+}
+.container-header .row span, .container-header .row h1, .container-header .row p, .container-header .row .price {
+  color: white;
+}
+.container-header .row .view-button {
+  border: 1px solid #00aeff;
+  color: white;
+  background-color: #00aeff;
+  padding: 13px 34px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.properties-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.properties-card {
+  width: 33%;
+}
+
+h2 {
+  color: #192839;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.cards {
+  display: flex;
+}
+
+.card-info {
+  padding: 30px 20px 25px 20px;
+}/*# sourceMappingURL=main.css.map */
